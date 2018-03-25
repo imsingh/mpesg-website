@@ -1,0 +1,39 @@
+#home {
+  height: 65vh;
+
+  #main-heading {
+    text-align: center;
+    margin-top: 55vh;
+
+    h2 {
+      display: inline-block;
+      background-color: white;
+      font-size: 3rem;
+      padding: 2rem;
+      border-radius: 5px;
+      color: black;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+#home::after {
+  content: "";
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  position: absolute;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: bottom;
+  z-index: -1;
+  background-image: url("../assets/images/bg.jpg");
+}

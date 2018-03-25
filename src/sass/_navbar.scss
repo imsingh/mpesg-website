@@ -1,0 +1,79 @@
+#main-navbar-container {
+  font-family: "Montserrat", sans-serif;
+
+  #main-navbar {
+    border: 0px;
+    outline: 0;
+    margin-bottom: 0;
+    background-color: white;
+    .navbar-brand {
+      text-transform: uppercase;
+      color: #e4a300;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+    }
+    .navbar-header {
+      .navbar-toggle {
+        border-color: transparent;
+        background-color: transparent;
+        .icon-bar {
+          background-color: black;
+        }
+      }
+      #small-brand {
+        float: none;
+        text-align: center;
+        margin-left: 33px;
+      }
+    }
+
+    .navbar-nav {
+      min-height: 50px;
+      font-size: 1.2rem;
+      letter-spacing: 0.2rem;
+      font-weight: bold;
+      li {
+        text-align: center;
+        padding: 0 10px;
+        a {
+          color: black;
+          background-color: transparent;
+          text-transform: uppercase;
+        }
+      }
+
+      li.active a[href="#home"] {
+        color: $home-bg-color;
+      }
+
+      li.active a[href="#about"] {
+        color: $about-nav-color;
+      }
+
+      li.active a[href="#work"] {
+        color: $work-bg-color;
+      }
+
+      li.active a[href="#gallery"] {
+        color: $gallery-bg-color;
+      }
+
+      li.active a[href="#contact"] {
+        color: $contact-bg-color;
+      }
+
+      li.active a[href="#learn"] {
+        color: $learn-bg-color;
+      }
+    }
+    @media (max-width: 767px) {
+      .navbar-nav {
+        margin: 10px 0px;
+      }
+      .navbar-nav,
+      .navbar-nav li {
+        width: 100%;
+      }
+    }
+  }
+}

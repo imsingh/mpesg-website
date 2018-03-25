@@ -1,0 +1,94 @@
+{
+  "_from": "nanogallery",
+  "_id": "nanogallery@5.10.3",
+  "_inBundle": false,
+  "_integrity": "sha1-5vmAG0OIDQ6/Ch10t+/a8qss+C0=",
+  "_location": "/nanogallery",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nanogallery",
+    "name": "nanogallery",
+    "escapedName": "nanogallery",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nanogallery/-/nanogallery-5.10.3.tgz",
+  "_shasum": "e6f9801b43880d0ebf0a1d74b7efdaf2ab2cf82d",
+  "_spec": "nanogallery",
+  "_where": "/home/imsingh/projects/dilruba",
+  "author": {
+    "name": "Christophe Brisbois",
+    "email": "chr@brisbois.fr"
+  },
+  "bugs": {
+    "url": "https://github.com/Kris-B/nanoGALLERY/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Alessandro Rossi",
+      "email": "alexred@alexred.com",
+      "url": "AlexRed"
+    },
+    {
+      "name": "Giovanni Chiodi",
+      "email": "giovanni.chiodi@gmail.com"
+    },
+    {
+      "name": "antonio r.",
+      "url": "grief-of-these-days https://github.com/grief-of-these-days"
+    },
+    {
+      "name": "Rapha�l Renaudon",
+      "url": "https://github.com/sevarg"
+    },
+    {
+      "name": "Jeff Mills",
+      "url": "https://github.com/jefftmills"
+    },
+    {
+      "name": "Victor A. Banuelos",
+      "url": "https://github.com/vbanuelos"
+    }
+  ],
+  "deprecated": false,
+  "description": "image gallery simplified - jQuery plugin",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.11.0",
+    "grunt-contrib-uglify": "^0.7.0"
+  },
+  "homepage": "http://nanogallery.brisbois.fr",
+  "keywords": [
+    "image",
+    "gallery",
+    "photo",
+    "photoset",
+    "slideshow",
+    "flickr",
+    "googleplus",
+    "picasa",
+    "swipe",
+    "responsive",
+    "RTL",
+    "jquery-plugin"
+  ],
+  "license": "CC BY-NC 3.0",
+  "main": "dist/jquery.nanogallery.min.js",
+  "name": "nanogallery",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Kris-B/nanoGALLERY.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "5.10.3"
+}

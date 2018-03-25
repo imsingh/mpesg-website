@@ -1,0 +1,51 @@
+#about {
+  background-color: $about-bg-color;
+  color: #263631;
+  font-weight: bold;
+  -webkit-clip-path: polygon(
+    50% 50px,
+    100% 0,
+    100% 100%,
+    50% 100%,
+    0 100%,
+    0 0
+  );
+  clip-path: polygon(50% 50px, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+
+  #intro-me {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .hire-me {
+    margin-top: 20px;
+  }
+
+  .timeline-title {
+    text-align: center;
+  }
+
+  .about-content {
+    .profile-pic {
+      float: left;
+      max-width: 150px;
+      margin-right: 20px;
+    }
+    margin-top: 20px;
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+
+  @media (max-width: 767px) {
+    .about-content {
+      .profile-pic {
+        width: 100%;
+        max-width: 400px;
+        float: none;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      text-align: center;
+    }
+  }
+}

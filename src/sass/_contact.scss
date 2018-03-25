@@ -1,0 +1,58 @@
+#contact {
+  background-color: white;
+  color: #263631;
+  padding: 2rem;
+  a {
+    text-decoration: none;
+    color: #263631;
+  }
+  #contacts {
+    font-size: 2rem;
+    text-align: center;
+    span {
+      margin-top: 10px;
+    }
+
+    .links {
+      margin-top: 50px;
+    }
+  }
+
+  .social-links {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    .links {
+      margin-top: 50px;
+    }
+    span {
+      display: flex;
+      flex-direction: column;
+    }
+    .fa {
+      font-size: 5rem;
+    }
+    .fa-youtube-play {
+      color: red;
+    }
+    .fa-facebook-square {
+      color: #3b5998;
+    }
+
+    .fa-soundcloud {
+      color: orange;
+    }
+    .fa-instagram {
+      background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
